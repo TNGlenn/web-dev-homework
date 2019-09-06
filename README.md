@@ -1,2 +1,1 @@
-# web-dev-homework
-Repository for my web dev homework. 
+# Tennesssee Glenn's Web-Dev Homework 
