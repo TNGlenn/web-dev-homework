@@ -15,4 +15,4 @@ Website I frequent: [Autostraddle](https://www.autostraddle.com/)
 
 Link to my [responses!](../assignment-02/responses.txt)
 
-[Screenshot](../images/screenshot2.png)
+![Screenshot](../images/screenshot2.png)
