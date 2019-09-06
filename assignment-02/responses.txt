@@ -1,0 +1,11 @@
+1. Things like images can be sent as bits of binary in a packet with addresses
+their origin or destination. They then travel through routes chosen by routers based on what is the best path for any individual packet.
+
+
+2. An IP address functions as a unique address for a computer or phone. They communicate with a network of DNS servers which help the user find the location of different websites.
+
+
+3. A cookie is a small cache of information meant to help a website gather intel on a visitor.
+
+
+4. Firstly, the protocol shows in what way your browser will communicate with a server. The domain functions as a unique string of words that dictate the location of a website. Then, the path gives directions on how to move through the directory to the desired destination. Finally, the file or page is the destination of your web visitor.
