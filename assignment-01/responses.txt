@@ -1,5 +1,9 @@
 Tennessee Glenn
 
-Hi there!
+1. The internet is a conglomerate of international networks while the web is all the information that is stored on the internet.
 
-Hi hi hi 
+2. The internet functions as a collection of interconnected networks which are accessed by computers with unique addresses. 
+
+3. A directory is a place on your computer used to store and organize files.
+
+4. A VCS is useful because it contains a written record of changes youve made which you can review at any time. 
