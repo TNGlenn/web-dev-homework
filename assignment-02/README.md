@@ -14,3 +14,5 @@ I've mainly decided to take this class to fulfill requirements for my minor in m
 Website I frequent: [Autostraddle](https://www.autostraddle.com/)
 
 Link to my [responses!](../assignment-02/responses.txt)
+
+[Screenshot](../images/screenshot2.png)
