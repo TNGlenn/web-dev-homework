@@ -1,0 +1,18 @@
+h1 {
+  color:red;
+}
+
+.square {
+  width: 50%;
+  height: 200px;
+}
+
+#Midnightblue {
+  background-color:#191970
+}
+#DarkSlateGray {background-color:#2F4F4F;
+}
+#HotPink {background-color:#FF69B4;
+}
+#Gold{background-color:#FFD706;
+}
