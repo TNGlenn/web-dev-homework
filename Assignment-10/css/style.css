@@ -1,0 +1,33 @@
+/*Page-Wide*/
+body {
+  background-color:rgb(13,167,170);
+  color:black;
+  padding:5px;
+  font-family: 'Cinzel', serif;
+}
+
+/*Paragraoh Content*/
+.text{
+  background-color: #black;
+color: black;
+padding:5px;
+line-height: 2em;
+font-weight: 100;
+}
+
+
+p:first-of-type::first-letter{
+  font-family: 'Supermercado One', cursive;
+font-size:6em;
+font-weight:400;
+color:rgb(43,91,99);
+}
+
+/*"Read More!" Link*/
+a {
+  background-color:rgb(43,91,99);
+  padding:5px
+}
+a:hover{
+  font-style:oblique;
+}
