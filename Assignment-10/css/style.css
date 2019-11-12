@@ -1,5 +1,5 @@
 /*Page-Wide*/
-body {
+body{
   background-color:rgb(13,167,170);
   color:black;
   padding:5px;
@@ -9,18 +9,18 @@ body {
 /*Paragraoh Content*/
 .text{
   background-color: #black;
-color: black;
-padding:5px;
-line-height: 2em;
-font-weight: 100;
+  color: black;
+  padding:5px;
+  line-height: 2em;
+  font-weight: 100;
 }
 
 
 p:first-of-type::first-letter{
   font-family: 'Supermercado One', cursive;
-font-size:6em;
-font-weight:400;
-color:rgb(43,91,99);
+  font-size:6em;
+  font-weight:400;
+  color:rgb(43,91,99);
 }
 
 /*"Read More!" Link*/
