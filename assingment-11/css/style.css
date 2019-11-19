@@ -1,0 +1,21 @@
+/* page style*/
+body {
+  background-color: skyblue;
+  margin: 0;
+  padding: 0;
+}
+header {
+  position:fixed;
+  top:0px;
+  background-color:lightgreen;
+  margin-top: 0;
+  height 4em;
+  width: 100%;
+}
+/* sight navigation */
+#site-menu a{
+  display: inline-block;
+  color: red;
+  display: block;
+  margin: 0.5em 0;
+}
