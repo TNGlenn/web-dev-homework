@@ -39,3 +39,9 @@
   background-color: orange;
   padding: 0.5em 1em;
 }
+
+</div>
+
+<div class="title"
+<a href="I Spent Too Much at Hollister Today"</a>
+</div>
