@@ -1,0 +1,39 @@
+
+CSS FOR NAVIGATION menu
+
+
+/*MENU BAR (CONTAINER): */
+menu  {
+  background-color:#E0FFFF;
+
+}
+
+/* TOP-LEVEL LINKS: */
+#site-links {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  }
+  #site-links  .menu-item{
+    width: 6em;
+    padding: .5em 1em;
+    display: inline-block;
+
+    background-color: #FF69B4;
+
+    text-align:center;
+    color: #48D1CC;
+  }
+  :site-links .menu-item:hover {
+    color: dark red;
+    text-decoration: underline overline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+  }
+
+/*DROPDOWN: */
+
+/* SOCIAL MEDIA ACCOUNTS: */
+#social-links{
+
+}
