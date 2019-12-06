@@ -1,5 +1,5 @@
 
-CSS FOR NAVIGATION menu
+/* CSS FOR NAVIGATION menu */
 /* MENU BAR (CONTAINER): */
 
 menu {
@@ -14,42 +14,44 @@ menu {
   padding:0;
   display:inline-block
 }
+
 #site-links .menu-item {
   width: 6em;
   padding: 0.5em 1em;
   display: inline-block;
+  text-decoration: none;
 
   background-color: lightgreen;
 
   text-align: center;
-  color: silver;
+  color: darkgreen;
 }
+
 site-links .menu-item:hover {
   background-color: magenta;
 
   color: violet;
-  text-decoration: underline overline;
   text-decoration-color: black;
-  text-decoration-style:dotted;
+
 }
 
 /*DROPDOWN: */
 #site-links .dropdown {
-  display:inline-block;
+  display: inline-block;
   width: 7em;
 }
 #site-links .dropdown-content  {
-  display:inline-block;
-  position:fixed;
+  display: none;
+  position: absolute;
   background-color: skyblue;
-  z-index: 5
+  z-index: 5;
 }
 #site-links .dropdown-content a:hover {
   color: forestgreen;
   font-weight: 900;
 }
 #site-links .dropdown:hover .dropdown-content {
-  display:block;
+  display: block;
 }
 #site-links .dropdown-item {
   min-width: 6em;
@@ -67,6 +69,7 @@ site-links .menu-item:hover {
   padding: .5em;
   display: inline-block;
   float: right;
+
 }
 #social-links .social-item {
   margin: 0px 5px;

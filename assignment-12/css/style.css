@@ -5,3 +5,75 @@ body  {
   background-repeat: repeat-x;
   background-attachment: fixed;
 }
+
+h1, span {
+  margin: 0;
+  font-family:cursive;
+  color: magenta;
+  text-align: center;
+}
+
+h4 {
+  font-family:serif;
+  font-size: 1em
+}
+
+
+/* LAYOUT AREAS: */
+
+.main-container {
+  width: 60%
+  max-width: 700px;
+  margin: 3em auto;
+  padding: 3em;
+
+  background-color: orange;
+  border-right: 15px solid blue;
+  border-bottom: 15px solid red;
+}
+header  {
+
+}
+main  {
+  text-align: justify;
+  margin 3em 0;
+}
+footer {
+  text-align: center;
+  font-sizeL .75em;
+  margin-top: 3em;
+}
+
+/* LAYOUT PIECES: */
+
+/*Site Information*/
+.site-heading {
+  width: 50%;
+  margin:4em auto;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+
+  border: 5px double salmon;
+
+  text-align: center;
+}
+#site-title {
+  margin:.5em;
+  line-height: 1em;
+  font-size: 3em;
+}
+#site-slogan {
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: purple;
+}
+
+.site-logo {
+  margin: auto;
+  margin-top: -60px;
+  display: block;
+  position: relative;
+  z-index: 2;
+}
