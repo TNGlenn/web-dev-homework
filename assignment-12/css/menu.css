@@ -37,8 +37,8 @@ site-links .menu-item:hover {
 
 /*DROPDOWN: */
 #site-links .dropdown {
-  display: inline-block;
-  width: 7em;
+  display:inline-block;
+  width: 8em;
 }
 #site-links .dropdown-content  {
   display: none;
@@ -48,13 +48,13 @@ site-links .menu-item:hover {
 }
 #site-links .dropdown-content a:hover {
   color: forestgreen;
-  font-weight: 900;
+  font-weight: 850;
 }
 #site-links .dropdown:hover .dropdown-content {
   display: block;
 }
 #site-links .dropdown-item {
-  min-width: 6em;
+  min-width: 9em;
   padding: .5em 1em;
   display: block;
 
@@ -66,19 +66,19 @@ site-links .menu-item:hover {
 
 /* SOCIAL MEDIA LINKS: */
 #social-links {
-  padding: .5em;
+  padding: 3em;
   display: inline-block;
   float: right;
 
 }
 #social-links .social-item {
-  margin: 0px 5px;
+  margin: 10px 10px;
 }
 #social-links img {
-  width: 20px;
-  height: 20px;
-  opacity: .5;
+  width: 50px;
+  height: 25px;
+  opacity: 1;
 }
 #social-links img:hover {
-  opacity: 1;
+  opacity: 5;
 }
