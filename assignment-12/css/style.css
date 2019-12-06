@@ -1,0 +1,7 @@
+/----SITE-WIDE ELEMENTS----/
+body  {
+  background-color: lightpink;
+  background-image:image();
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+}

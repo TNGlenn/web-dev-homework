@@ -1,2 +1,81 @@
 
 CSS FOR NAVIGATION menu
+/* MENU BAR (CONTAINER): */
+
+menu {
+  margin: 0;
+  padding: 0;
+  background-color: dark blue;
+}
+
+/* TOP-LEVEL LINKS: */
+#site-links {
+  margin:0;
+  padding:0;
+  display:inline-block
+}
+#site-links .menu-item {
+  width: 6em;
+  padding: 0.5em 1em;
+  display: inline-block;
+
+  background-color: lightgreen;
+
+  text-align: center;
+  color: silver;
+}
+site-links .menu-item:hover {
+  background-color: magenta;
+
+  color: violet;
+  text-decoration: underline overline;
+  text-decoration-color: black;
+  text-decoration-style:dotted;
+}
+
+/*DROPDOWN: */
+#site-links .dropdown {
+  display:inline-block;
+  width: 7em;
+}
+#site-links .dropdown-content  {
+  display:inline-block;
+  position:fixed;
+  background-color: skyblue;
+  z-index: 5
+}
+#site-links .dropdown-content a:hover {
+  color: forestgreen;
+  font-weight: 900;
+}
+#site-links .dropdown:hover .dropdown-content {
+  display:block;
+}
+#site-links .dropdown-item {
+  min-width: 6em;
+  padding: .5em 1em;
+  display: block;
+
+  text-align: center;
+}
+.dropdown-item:hover {
+  background-color: red;
+}
+
+/* SOCIAL MEDIA LINKS: */
+#social-links {
+  padding: .5em;
+  display: inline-block;
+  float: right;
+}
+#social-links .social-item {
+  margin: 0px 5px;
+}
+#social-links img {
+  width: 20px;
+  height: 20px;
+  opacity: .5;
+}
+#social-links img:hover {
+  opacity: 1;
+}
