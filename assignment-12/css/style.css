@@ -1,8 +1,8 @@
 /----SITE-WIDE ELEMENTS----/
 body  {
   background-color: lightpink;
-  background-image:image();
-  background-repeat: repeat-x;
+  background-image: url('./image/abstract.png');
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
