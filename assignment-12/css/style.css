@@ -1,9 +1,10 @@
 /----SITE-WIDE ELEMENTS----/
 body  {
   background-color: lightpink;
-  background-image: url('./image/abstract.png');
+  background-image: url('../css/image/abstract.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: auto;
 }
 
 h1, span {
