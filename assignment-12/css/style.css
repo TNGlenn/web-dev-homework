@@ -1,15 +1,15 @@
 /----SITE-WIDE ELEMENTS----/
 body  {
   background-color: lightpink;
-  background-image: url('../css/image/abstract.png');
+  background-image: url('./css/images/abstract.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: auto;
+  background-size: 100% 100%;
 }
 
 h1, span {
   margin: 0;
-  font-family:cursive;
+  font-family: cursive;
   color: magenta;
   text-align: center;
 }
@@ -18,7 +18,6 @@ h4 {
   font-family:serif;
   font-size: 1em
 }
-
 
 /* LAYOUT AREAS: */
 
@@ -35,10 +34,12 @@ h4 {
 header  {
 
 }
+
 main  {
   text-align: justify;
   margin 3em 0;
 }
+
 footer {
   text-align: center;
   font-sizeL .75em;
