@@ -1,18 +1,17 @@
-
 /* CSS FOR NAVIGATION menu */
 /* MENU BAR (CONTAINER): */
 
 menu {
   margin: 0;
   padding: 0;
-  background-color: dark blue;
+  background-color: darkblue;
 }
 
 /* TOP-LEVEL LINKS: */
 #site-links {
-  margin:0;
-  padding:0;
-  display:inline-block
+  margin: 0;
+  padding: 0;
+  display: inline-block;
 }
 
 #site-links .menu-item {
@@ -29,9 +28,7 @@ menu {
 
 site-links .menu-item:hover {
   background-color: magenta;
-
   color: violet;
-  text-decoration-color: black;
 
 }
 
@@ -47,7 +44,8 @@ site-links .menu-item:hover {
   z-index: 5;
 }
 #site-links .dropdown-content a:hover {
-  color: forestgreen;
+  color: black;
+  text-decoration: none;
   font-weight: 850;
 }
 #site-links .dropdown:hover .dropdown-content {
@@ -58,6 +56,7 @@ site-links .menu-item:hover {
   padding: .5em 1em;
   display: block;
 
+  text-decoration: none;
   text-align: center;
 }
 .dropdown-item:hover {
