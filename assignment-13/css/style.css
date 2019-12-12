@@ -1,0 +1,81 @@
+/*----SITE-WIDE ELEMENTS----*/
+body  {
+  background-image: url('./images/abstract.png');
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1, span {
+  margin: 0;
+  font-family: cursive;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+h4 {
+  font-family:serif;
+  font-size: 1em
+}
+
+/* LAYOUT AREAS: */
+
+.main-container {
+  width: 60%
+  max-width: 700px;
+  margin: 3em auto;
+  padding: 3em;
+
+  background-color: #e0876a;
+  border-right: 15px solid #f9ccac;
+  border-bottom: 15px solid #f9ccac;
+}
+header  {
+
+}
+
+main  {
+  text-align: justify;
+  margin 3em 0;
+}
+
+footer {
+  text-align: center;
+  font-sizeL .75em;
+  margin-top: 3em;
+}
+
+/* LAYOUT PIECES: */
+
+/*Site Information*/
+.site-heading {
+  width: 50%;
+  margin:4em auto;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+
+  border: 5px double salmon;
+
+  text-align: center;
+}
+#site-title {
+  margin:.5em;
+  line-height: 1em;
+  font-size: 3em;
+}
+#site-slogan {
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.site-logo {
+  margin: auto;
+  margin-top: -60px;
+  display: block;
+  position: relative;
+  z-index: 2;
+}

@@ -1,0 +1,83 @@
+/* CSS FOR NAVIGATION menu */
+/* MENU BAR (CONTAINER): */
+
+menu {
+  margin: 0;
+  padding: 0;
+  background-color: #f4a688;
+}
+
+/* TOP-LEVEL LINKS: */
+#site-links {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#site-links .menu-item {
+  width: 6em;
+  padding: 0.5em 1em;
+  display:inline-block;
+  text-decoration: none;
+
+  background-color: #e0876a;
+
+  text-align: right;
+  color: white;
+}
+
+site-links .menu-item:hover {
+  background-color: #f4a688;
+  color: #e0876a;
+
+}
+
+/*DROPDOWN: */
+#site-links .dropdown {
+  display:inline-block;
+  width: 8em;
+}
+#site-links .dropdown-content  {
+  display: none;
+  position: absolute;
+  background-color: skyblue;
+  z-index: 5;
+}
+#site-links .dropdown-content a:hover {
+  color: #fbefcc;
+  text-decoration: none;
+  font-weight: 850;
+}
+#site-links .dropdown:hover .dropdown-content {
+  display: block;
+}
+#site-links .dropdown-item {
+  min-width: 9em;
+  padding: .5em 1em;
+  display: block;
+
+  text-decoration: none;
+  text-align: center;
+}
+.dropdown-item:hover {
+  background-color: #f4a688;
+}
+
+/* SOCIAL MEDIA LINKS: */
+#social-links {
+  padding: 3em;
+  display: inline-block;
+  float: right;
+
+}
+#social-links .social-item {
+  margin: 10px 10px;
+}
+#social-links img {
+  width: 50px;
+  height: 25px;
+  opacity: 1;
+}
+#social-links img:hover {
+  opacity: 5;
+}
