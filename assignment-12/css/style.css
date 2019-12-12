@@ -1,7 +1,7 @@
 /*----SITE-WIDE ELEMENTS----*/
 body  {
-  background-image: url('./css/images/abstract.png');
-  background-color: lightpink;
+  background-image: url('./images/abstract.png');
+  background-color: white;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -9,8 +9,9 @@ body  {
 h1, span {
   margin: 0;
   font-family: cursive;
-  color: magenta;
+  color: white;
   text-align: center;
+  text-decoration: none;
 }
 
 h4 {
@@ -26,9 +27,9 @@ h4 {
   margin: 3em auto;
   padding: 3em;
 
-  background-color: orange;
-  border-right: 15px solid blue;
-  border-bottom: 15px solid red;
+  background-color: #e0876a;
+  border-right: 15px solid #f9ccac;
+  border-bottom: 15px solid #f9ccac;
 }
 header  {
 
@@ -68,7 +69,7 @@ footer {
   font-size: 1em;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: purple;
+  color: white;
 }
 
 .site-logo {

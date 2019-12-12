@@ -4,7 +4,7 @@
 menu {
   margin: 0;
   padding: 0;
-  background-color: darkblue;
+  background-color: #f4a688;
 }
 
 /* TOP-LEVEL LINKS: */
@@ -17,18 +17,18 @@ menu {
 #site-links .menu-item {
   width: 6em;
   padding: 0.5em 1em;
-  display: inline-block;
+  display:inline-block;
   text-decoration: none;
 
-  background-color: lightgreen;
+  background-color: #e0876a;
 
-  text-align: center;
-  color: darkgreen;
+  text-align: right;
+  color: white;
 }
 
 site-links .menu-item:hover {
-  background-color: magenta;
-  color: violet;
+  background-color: #f4a688;
+  color: #e0876a;
 
 }
 
@@ -44,7 +44,7 @@ site-links .menu-item:hover {
   z-index: 5;
 }
 #site-links .dropdown-content a:hover {
-  color: black;
+  color: #fbefcc;
   text-decoration: none;
   font-weight: 850;
 }
@@ -60,7 +60,7 @@ site-links .menu-item:hover {
   text-align: center;
 }
 .dropdown-item:hover {
-  background-color: red;
+  background-color: #f4a688;
 }
 
 /* SOCIAL MEDIA LINKS: */
