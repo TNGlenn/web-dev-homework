@@ -1,67 +1,98 @@
 /* CSS FOR NAVIGATION menu */
 /* MENU BAR (CONTAINER): */
 
-menu {
-  margin: 0;
-  padding: 0;
-  background-color: #f4a688;
-}
+/*-------------------
+|  NAVIGATION STYLE
+ -------------------*/
+.navigation  {
+  background-color: darkred;
+  width: 300px;
+  height: 100%;
 
-/* TOP-LEVEL LINKS: */
-#site-links {
-  margin: 0;
-  padding: 0;
-  display: inline-block;
+  position: fixed; /*Fix the sidebar to the left*/
+  top: 0;
+  left: 0;
 }
-
-#site-links .menu-item {
-  width: 6em;
-  padding: 0.5em 1em;
-  display:inline-block;
+.navigation a {
+  color: skyblue;
   text-decoration: none;
-
-  background-color: #e0876a;
-
-  text-align: right;
-  color: white;
 }
-
-site-links .menu-item:hover {
-  background-color: #f4a688;
-  color: #e0876a;
-
-}
-
-/*DROPDOWN: */
-#site-links .dropdown {
-  display:inline-block;
-  width: 8em;
-}
-#site-links .dropdown-content  {
-  display: none;
-  position: absolute;
-  background-color: skyblue;
-  z-index: 5;
-}
-#site-links .dropdown-content a:hover {
-  color: #fbefcc;
+.navigation a {
+  color: lightgreen;
   text-decoration: none;
-  font-weight: 850;
 }
-#site-links .dropdown:hover .dropdown-content {
-  display: block;
-}
-#site-links .dropdown-item {
-  min-width: 9em;
-  padding: .5em 1em;
-  display: block;
+/* Logo and title */
+.site-info {
+  margin: 2em auto;
 
-  text-decoration: none;
   text-align: center;
+  font-size: 200%;
 }
-.dropdown-item:hover {
-  background-color: #f4a688;
+.logo {
+  background-color: purple;
+  width: 150px;
+  height: 150px;
+
+  margin: 0 auto 1em;
+
+  border: 5px solid black;
+  border-radius: 100%;
+
+  line-height: 150px; /* Centers text vertically in div of same height */
+  color: yellow;
+  text-transform: uppercase;
 }
+.logo:hover {
+  border-color: pink;
+}
+
+/*Site links */
+.site-links {
+  margine: 0 1em;
+}
+.site-links a {
+  display:block; /* Make inline element a block-level (100% width) element */
+  margin: 1em;
+}
+.site-links a:hover, .site-links .active {
+  margin-left: 2.5em;
+
+}
+/* Links to Social Accounts */
+.social-links {
+  background-color: orange;
+  width: inherit;
+
+  position: inherit;
+  bottom: 1em;
+}
+.social-links img {
+  background-color: darkgreen;
+  width: 25%;
+  height: auto;
+
+  float: left;
+}
+.social-links img:hover {
+  background-color: red;
+}
+
+/*-------------------
+| MAIN CONTENT STYLE |
+ -------------------*/
+
+ .main {
+   background-color: hotpink;
+   overflow: auto; /* Default (redundant) */
+   padding: 1em;
+ }
+ .banner {
+   width: 100%;
+   height: auto;
+ }
+
+
+
 
 /* SOCIAL MEDIA LINKS: */
 #social-links {
