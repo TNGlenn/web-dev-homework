@@ -1,7 +1,7 @@
 /*----SITE-WIDE ELEMENTS----*/
 body  {
   background-image: url('./images/abstract.png');
-  background-color: white;
+  background-color: black;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -19,17 +19,6 @@ h4 {
   font-size: 1em
 }
 
-/* LAYOUT AREAS: */
-
-.main-container {
-  width: 60%
-  max-width: 700px;
-  margin: 3em auto;
-  padding: 3em;
-
-  background-color: #0C1226;
-
-}
 header  {
     width: 50%;
     margin:4em auto;

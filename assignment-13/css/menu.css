@@ -6,89 +6,21 @@
   background-color: #330000;
   width: 300px;
   height: 100%;
-
   position: fixed; /*Fix the sidebar to the left*/
   top: 0;
   left: 0;
 }
 .navigation a {
-  color: skyblue;
-  text-decoration: none;
-}
-.navigation a {
   color: lightgreen;
   text-decoration: none;
 }
-
-/* Logo and title */
-.site-info {
-  margin: 2em auto;
-
-  text-align: center;
-  font-size: 200%;
+.main-side-container {
+  width: 60%
+  max-width: 700px;
+  margin: 3em auto;
+  padding: 3em;
+  background-color: #0C1226;
 }
-.logo {
-  background-color: purple;
-  width: 150px;
-  height: 150px;
-
-  margin: 0 auto 1em;
-
-  border: 5px solid black;
-  border-radius: 100%;
-
-  line-height: 150px; /* Centers text vertically in div of same height */
-  color: yellow;
-  text-transform: uppercase;
-}
-.logo:hover {
-  border-color: pink;
-}
-
-/*Site links */
-.site-links {
-  margine: 0 1em;
-}
-.site-links a {
-  display:block; /* Make inline element a block-level (100% width) element */
-  margin: 1em;
-}
-.site-links a:hover, .site-links .active {
-  margin-left: 2.5em;
-
-}
-/* Links to Social Accounts */
-.social-links {
-  background-color: orange;
-  width: inherit;
-
-  position: inherit;
-  bottom: 1em;
-}
-.social-links img {
-  background-color: darkgreen;
-  width: 25%;
-  height: auto;
-
-  float: left;
-}
-.social-links img:hover {
-  background-color: red;
-}
-
-/* MAIN CONTENT STYLE */
-
- .main {
-   background-color: hotpink;
-   overflow: auto; /* Default (redundant) */
-   margin-left: 300px;
-   padding: 1em;
- }
- .banner {
-   width: 100%;
-   height: auto;
- }
-
 
 /* SOCIAL MEDIA LINKS: */
 #social-links {
