@@ -1,11 +1,9 @@
 /* CSS FOR NAVIGATION menu */
 /* MENU BAR (CONTAINER): */
 
-/*-------------------
-|  NAVIGATION STYLE
- -------------------*/
+/* NAVIGATION STYLE */
 .navigation  {
-  background-color: darkred;
+  background-color: #330000;
   width: 300px;
   height: 100%;
 
@@ -21,6 +19,7 @@
   color: lightgreen;
   text-decoration: none;
 }
+
 /* Logo and title */
 .site-info {
   margin: 2em auto;
@@ -77,21 +76,18 @@
   background-color: red;
 }
 
-/*-------------------
-| MAIN CONTENT STYLE |
- -------------------*/
+/* MAIN CONTENT STYLE */
 
  .main {
    background-color: hotpink;
    overflow: auto; /* Default (redundant) */
+   margin-left: 300px;
    padding: 1em;
  }
  .banner {
    width: 100%;
    height: auto;
  }
-
-
 
 
 /* SOCIAL MEDIA LINKS: */
