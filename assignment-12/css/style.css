@@ -15,24 +15,32 @@ h1, span {
 }
 
 h4 {
-  font-family:serif;
-  font-size: 1em
+  font-family: serif;
+  font-size: 1em;
 }
 
 /* LAYOUT AREAS: */
+
+.container{
+  background-color:#F9CCAC;
+  width: 600px;
+  margin: auto;
+  padding:20px;
+  border: 1px solid black;
+}
 
 .main-container {
   width: 60%
   max-width: 700px;
   margin: 3em auto;
   padding: 3em;
-
-  background-color: #e0876a;
-  border-right: 15px solid #f9ccac;
-  border-bottom: 15px solid #f9ccac;
+  text-decoration: none;
+  background-color: #E0876A;
+  border-right: 15px solid #F9CCAC;
+  border-bottom: 15px solid #F9CCAC;
 }
 header  {
-
+  text-decoration: none;
 }
 
 main  {
@@ -60,15 +68,19 @@ footer {
 
   text-align: center;
 }
+
 #site-title {
   margin:.5em;
   line-height: 1em;
   font-size: 3em;
+  text-decoration: none;
 }
+
 #site-slogan {
   font-size: 1em;
   letter-spacing: 1px;
   text-transform: uppercase;
+  text-decoration: none;
   color: white;
 }
 
