@@ -1,24 +1,12 @@
+## Assignment 12 README
 
+1. It isn't exactly where I want it to be but I saw my client being myself
+making a kind of parody website for a joke business where you can hire
+people to beat you up.
 
-/*DROPDOWN: */
-#site-links .dropdown {
-display: inline-block;
-width: 6em;
-}
+2. A block is an element with a kind of margin that doesn't allow any
+other element to be right next to it. Inline basically just lines the element
+up next to another. Meanwhile a blick seperates the element even further.
 
-#site-links .dropdown-content {
-position: absolute;
-
-background-color: saddlebrown;
-z-index: 5;
-}
-#site-links .dropdown-content a{
-color: #FFF;
-font-family: 'Arvo', Georgiam serif;
-}
-#site-links .dropdown-content
-/*SOCIAL MEDIA ACCOUNTS: */
-#social-links {}
-
-
-hello did this clone work?
+3. Again I struggled a lot, it's really frustrating feeling like I have this idea or sketch I'm trying to fulfill but I can't get something quite right!
+I feel like I am learning though.
